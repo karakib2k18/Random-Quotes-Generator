@@ -34,19 +34,23 @@ h1 {
   border: 2px solid rgba(0, 0, 0, 0.3);
   transition: 0.5s;
 }
-  .tag-quote {
-    color: #fff;
-    text-shadow: 1px 1px 1px rgba(50, 50, 50, 0.3);
-    width: 7em;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 15px 0;
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-    border: 2px solid rgba(0, 0, 0, 0.3);
-    transition: 0.5s;
-    max-height: 70px;
-  }
+.tag-quote {
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(50, 50, 50, 0.3);
+  width: 7em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+  max-height: 70px;
+  font-weight: 700;
+}
+.tag-quote:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
 .load-quote:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -121,14 +125,14 @@ h1 {
   content: ", ";
   font-style: normal;
 }
-.footer-name{
-    text-align: center;
-    margin-top: 100px;
-    font-size: 2em;
-    color: rgb(68, 0, 253);
-    text-shadow: 1px 1px 1px rgba(50, 50, 50, 0.3);
-    font-family: "Playfair Display", serif;
-    font-weight: 700;
+.footer-name {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 2em;
+  color: rgb(68, 0, 253);
+  text-shadow: 1px 1px 1px rgba(50, 50, 50, 0.3);
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
 }
 
 @media (min-width: 768px) {
